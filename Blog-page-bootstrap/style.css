@@ -1,0 +1,24 @@
+.navbar{
+    background-color: #085bd7 !important;
+
+}
+.bg-dark{
+    background-color: #085bd7 !important;
+
+}
+.row img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+#map{
+    height: 450px;
+}
+@media(min-width:768px){
+    .row img{
+        height:30vh;
+    }
+    #map{
+        height: 100%;
+    }
+}
